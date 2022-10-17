@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "18807165592",
+    "project_id": "expiration-tracker-8cb4b",
+    "storage_bucket": "expiration-tracker-8cb4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18807165592:android:c4df1c3b4b1e4f913df6ed",
+        "android_client_info": {
+          "package_name": "com.projecttwenty.expirationtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18807165592-gljgkc6bn0k81d5vf7vjak47io702dr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projecttwenty.expirationtracker",
+            "certificate_hash": "aaccfc07c5f195c760d16dd72d04164e50ca4604"
+          }
+        },
+        {
+          "client_id": "18807165592-mie24ppo5hevgkj516jaobledu0aaveg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projecttwenty.expirationtracker",
+            "certificate_hash": "a1d8ea37918b456cbd790bd91e41a4e058a8d44d"
+          }
+        },
+        {
+          "client_id": "18807165592-lf6d2jbkrhsihnnvetfh07j3livvonel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQQTp_W-M_A4jtvlb-NuRKY1ENeW_37yU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18807165592-lf6d2jbkrhsihnnvetfh07j3livvonel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

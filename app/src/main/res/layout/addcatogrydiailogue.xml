@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+
+    android:paddingRight="30dp"
+    android:background="@drawable/button_back"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="100dp"
+           android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="100dp"
+            app:lottie_rawRes="@raw/category"
+            app:lottie_loop="true"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:lottie_autoPlay="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:hint="ADD CATEGORY"
+            android:textStyle="bold"
+            android:maxLength="30"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:id="@+id/ctgnme"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:shadowDx="0"
+            android:gravity="center"
+            android:shadowDy="0"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:shadowRadius="2"
+            android:shadowColor="#3D5AFE"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:id="@+id/ok"
+            android:text="ADD"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

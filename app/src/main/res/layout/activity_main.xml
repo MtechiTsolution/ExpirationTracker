@@ -1,0 +1,80 @@
+<LinearLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Navigator"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:id="@+id/nav_host_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.13"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal">
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87"
+            android:padding="12dp"
+            android:background="#00BFA5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BFA5"
+                android:id="@+id/product"
+                android:drawableTop="@drawable/product"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Product"
+                android:layout_weight="0.2175">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BFA5"
+                android:id="@+id/catgry"
+                android:drawableTop="@drawable/category"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Category"
+                android:layout_weight="0.2175">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BFA5"
+                android:id="@+id/exprd"
+                android:drawableTop="@drawable/expired"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Expired"
+                android:layout_weight="0.2175">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

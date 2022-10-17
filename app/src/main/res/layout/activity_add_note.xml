@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/addnote"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColorHint="#28000000"
+    android:layout_weight="0.8"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="30dp"
+    android:textColor="#009688"
+    android:text=" Product Detail ">
+
+</TextView>
+
+
+    <EditText
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_margin="25dp"
+        android:id="@+id/note"
+        android:background="@null"
+        android:fontFamily="sans-serif"
+        android:hint="Something write here"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:textColorHint="#28000000"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp"
+        android:textColor="#000">
+    </EditText>
+    <Button
+        android:layout_weight="0.8"
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="Add"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@drawable/note_back_button" />
+
+</LinearLayout>
